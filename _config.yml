@@ -1,0 +1,26 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Connor Smith
+tagline:          'a brainspace'
+description:      'a place for projects and thoughts'
+url:              http://connorsmith.github.io
+baseurl:          /
+
+author:
+  name:           'Connor Smith'
+  url:            
+
+paginate:         5
+
+# Custom vars
+version:          0.0.1
+
+github:
+  repo:           https://github.com/connorsmith/connorsmith.github.io
