@@ -3,7 +3,6 @@ layout: page
 title: Projects
 ---
 
-Here are some of the things I've been up to...
+Here's an index of the projects I've posted about:
 
-* [This website!]({{ site.url }})
-* Other stuff
+* [CNC Machining of a Crest]({{ site.url }}/2014/11/02/cnc_shield_project/)
