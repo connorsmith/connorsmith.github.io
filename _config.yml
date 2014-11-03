@@ -9,7 +9,7 @@ relative_permalinks: true
 # Setup
 title:            Connor Smith
 tagline:          'a brainspace'
-description:      'a place for projects and thoughts'
+description:      'a place for thoughts and projects'
 url:              http://connorsmith.github.io
 baseurl:          /
 
