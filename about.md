@@ -9,7 +9,7 @@ Originally from Ottawa, I'm now in my final year at the University of Waterloo, 
 
 ## Interests
 
-In no particular order, the thing I do in my spare time include [cycling](http://www.strava.com/athletes/4374239), drawing, [reading](https://www.goodreads.com/user/show/3353185-connor), cooking (usually followed swiftly by eating), board games, learning languages, travelling... the list goes on.
+In my free time, I can be found [cycling](http://www.strava.com/athletes/4374239), drawing, [reading](https://www.goodreads.com/user/show/3353185-connor), cooking, playing board games, learning languages, travelling, watching movies, playing guitar or spending time with friends.
 
 ## Jobs
 
