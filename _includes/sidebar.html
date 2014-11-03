@@ -24,8 +24,15 @@
       {% endfor %}
 
       <a class="sidebar-nav-item" href="{{ site.baseurl }}public/connor-resume.pdf">Resume</a>
-      <a class="sidebar-nav-item" href="mailto:con.smith13@gmail.com">Contact</a>
     </nav>
+
+    <div class="social-links">
+      <ul>
+        <li><a href="mailto:con.smith13@gmail.com">{% include svg-icons/email.html %}</a></li>
+        <li><a href="https://www.linkedin.com/in/conthesmith">{% include svg-icons/linkedin.html %}</a></li>
+        <li><a href="https://github.com/connorsmith">{% include svg-icons/github.html %}</a></li>
+      </ul>
+    </div>
 
     <p class="copyright">&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>

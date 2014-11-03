@@ -111,6 +111,20 @@ a.sidebar-nav-item:focus {
   display: none;
 }
 
+.sidebar .social-links ul {
+  list-style: none;
+  padding-left: 0;
+  overflow: hidden;
+  width: 175px;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.sidebar .social-links ul li {
+  float: left;
+  font-size: 1.25rem;
+}
+
 /* Sticky sidebar
  *
  * Add the `sidebar-sticky` class to the sidebar's container to affix it the
@@ -143,6 +157,10 @@ a.sidebar-nav-item:focus {
   padding-bottom: 4rem;
 }
 
+/*.content p {
+  font-family: "PT Serif", serif;
+}*/
+
 @media (min-width: 48em) {
   .content {
     max-width: 38rem;
@@ -157,32 +175,6 @@ a.sidebar-nav-item:focus {
     margin-right: 4rem;
   }
 }
-
-
-/*
- * Reverse layout
- *
- * Flip the orientation of the page by placing the `.sidebar` on the right.
- */
-
-@media (min-width: 48em) {
-  .layout-reverse .sidebar {
-    left: auto;
-    right: 0;
-  }
-  .layout-reverse .content {
-    margin-left: 2rem;
-    margin-right: 20rem;
-  }
-}
-
-@media (min-width: 64em) {
-  .layout-reverse .content {
-    margin-left: 4rem;
-    margin-right: 22rem;
-  }
-}
-
 
 
 /*

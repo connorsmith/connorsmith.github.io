@@ -14,8 +14,8 @@ with autonomous vehicles in Singapore with [SMART](http://smart.mit.edu/research
 
 ## Status
 
-I'm still trying to figure out what the future has in store for me, so if you're interested in working together please feel free to [get in touch](mailto:con.smith13@gmail.com)! In addition to [my resume]({{ site.baseurl }}public/connor-resume.pdf), information about my past experience be found on [LinkedIn](https://www.linkedin.com/in/conthesmith).
+I'm still trying to figure out what the future has in store for me, so if you're interested in working together please feel free to [get in touch](mailto:con.smith13@gmail.com)! In addition to [my resume]({{ site.baseurl }}public/connor-resume.pdf), information about my past experience be found on [LinkedIn]({{site.linkedin}}).
 
 ## Hobbies
 
-In my free time, I can be found [cycling](http://www.strava.com/athletes/4374239), drawing, [reading](https://www.goodreads.com/user/show/3353185-connor), cooking, playing board games, learning languages, travelling, watching movies, playing guitar or spending time with friends.
+In my free time, I can be found [cycling]({{site.strava}}), drawing, [reading]({{site.goodreads}}), cooking, playing board games, learning languages, travelling, watching movies, playing guitar or spending time with friends.
