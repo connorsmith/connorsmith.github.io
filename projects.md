@@ -9,4 +9,6 @@ title: Projects
 
 ## Software
 
+* [Extended Kalman Filter for Omni-wheel Vehicle State Estimation]({{ site.url }}/2014/11/03/ekf-omniwheel/)
+
 ## Electrical
