@@ -11,7 +11,7 @@ Real-time mass estimation was one of my projects during my coop term in Singapor
 ## CAN Bus Signals
 Modern vehicles have numerous sensors built in, including wheel encoders, torque sensors and electrical sensors. The challenge part is knowing which signal belongs to which sensor. All of the signals are transmitted using the same format, which can be seen in the figure below:
 
-<img src="/assets/images/mass-estimation/can_message_frame.jpg" alt="CAN Message Structure"/>
+<img src="/assets/images/mass-estimation/can_message_frame.JPG" alt="CAN Message Structure"/>
 
 In order to figure out which signal corresponed to which sensor, I wrote a program to parse the incoming CAN bus messages and plot the signals in real time. The driving data was also logged so that it could be analyzed after the fact. After a week or two of testing, analysing and confirming hypotheses, the signals corresponding to the each of the wheel encoders, the motor torque, velocity were identified.
 
