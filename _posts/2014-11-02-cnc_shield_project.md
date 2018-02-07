@@ -3,9 +3,10 @@ layout: post
 title: CNC Machining of an Aluminum Crest
 ---
 
+<div class="post">
 This project was part of the [Numerical Control of Machine Tools (ME548)](http://mme.uwaterloo.ca/~me548/) course that I'm taking right now.
 
-Given an aluminum blank and a technical drawing of the part (below), I needed to produce a crest with a custom engraving on the surface. 
+Given an aluminum blank and a technical drawing of the part (below), I needed to produce a crest with a custom engraving on the surface.
 
 <img src="/assets/images/shield/shield-drawing.png" alt="Shield drawing"/>
 
@@ -30,3 +31,4 @@ Once this was done, the model and toolpaths were converted to G-Code using a pos
 <img src="/assets/images/shield/shield_finished.jpg" alt="Finished product!"/>
 
 Overall, I'm pretty pleased with how it turned out, particularly the engraving, but in hindsight I should have put more thought into the toolpath for the facing on the floor (around the crest). The zigzag pattern didn't turn out as well as I had hoped and there were slight cusps from the stepover percentage I used. Live and learn.
+</div>
