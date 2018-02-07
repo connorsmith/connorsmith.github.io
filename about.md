@@ -5,7 +5,7 @@ title: About Me
 
 ## Background
 
-Originally from Ottawa, I graduated in 2015 from the University of Waterloo with a BASc in [Mechatronics Engineering](https://uwaterloo.ca/mechanical-mechatronics-engineering/). How aspects of a complex system interact with one another is a source of endless fascination for me, so a multi-disciplinary program combining the best of mechanical, electrical and software engineering into one was a natural choice. After graduation I moved to Zurich to join [Rapyuta Robotics](https://www.rapyuta-robotics.com/) and start playing with robotic software. Since then, I've moved to Tokyo to focus more on the hardware side of things.
+Originally from Ottawa, I graduated in 2015 from the University of Waterloo with a BASc in [Mechatronics Engineering](https://uwaterloo.ca/mechanical-mechatronics-engineering/). How aspects of a complex system interact with one another is a source of endless fascination for me, so a multi-disciplinary program combining the best of mechanical, electrical and software engineering into one was a natural choice. After graduation I moved to Zurich to join [Rapyuta Robotics](https://www.rapyuta-robotics.com/) and start writing cool software for robots. Since then, I've moved to Tokyo to focus more on the hardware side of things.
 
 ## Previous Work
 
