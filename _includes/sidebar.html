@@ -2,12 +2,12 @@
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
       <img src="/assets/images/connor.jpeg" alt="Picture of me" class="avatar" />
-      <h2><a href="{{ site.baseurl }}">{{ site.title }}</a></h2>
+      <h2><a href="{{ site.url }}">{{ site.title }}</a></h2>
       <p class="lead">{{ site.description }}</p>
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+      <a class="sidebar-nav-item{% if page.url == site.url %} active{% endif %}" href="{{ site.url }}">Home</a>
 
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
@@ -23,7 +23,7 @@
         {% endif %}
       {% endfor %}
 
-      <a class="sidebar-nav-item" href="{{ site.baseurl }}public/connor-resume_20180207.pdf">Resume</a>
+      <a class="sidebar-nav-item" href="/public/connor-resume_20180207.pdf">Resume</a>
     </nav>
 
     <div class="social-links">
