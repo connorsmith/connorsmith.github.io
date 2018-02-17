@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Quadrotor and Docking Station Design 
+title: Drone and Docking Station Design 
 ---
 
 After moving from Rapyuta Robotics' software team to the hardware team in mid-2017, I got the opportunity to help with the design and manufacturing of the Beta generation of our drone and docking station. The design goals for the Beta generation were extremely ambitious - in particular, the ability to survive outdoors year-round and the ability to autonomously land and charge. While with every iteration we discover new challenges to overcome, the hope is that more problems are solved than are created.
