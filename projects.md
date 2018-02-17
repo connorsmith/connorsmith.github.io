@@ -2,6 +2,7 @@
 layout: page
 title: Projects
 ---
+* [Quadrotor Acrobatics]({{ site.url }}/2018/02/17/rr-acrobatics/)
 * [Autonomous Boat Project]({{ site.url }}/2015/01/13/autonomous-boat-project/)
 * [Real-time Estimation of Electric Vehicle Mass Using CAN Bus Signals]({{ site.url }}/2015/01/11/vehicle-mass-estimation/)
 * [Simulation of End Mill Cutting Forces]({{ site.url }}/2015/01/10/cutting-forces/)
