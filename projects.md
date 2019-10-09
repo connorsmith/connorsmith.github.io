@@ -2,6 +2,7 @@
 layout: page
 title: Projects
 ---
+* [Autonomous Mobile Shoebox Handling Robot]({{ site.url }}/2019/10/09/magazino/)
 * [Drone and Docking Station Design]({{ site.url }}/2018/02/17/rr-mech-design/)
 * [Quadrotor Acrobatics]({{ site.url }}/2018/02/17/rr-acrobatics/)
 * [Autonomous Boat Project]({{ site.url }}/2015/01/13/autonomous-boat-project/)
