@@ -10,7 +10,7 @@ Originally from Ottawa, I graduated in 2015 from the University of Waterloo with
 ## Previous Work
 
 I've had the opportunity to do a ton of neat stuff throughout my undergrad, from playing
-with autonomous vehicles in Singapore with [SMART](http://smart.mit.edu/research/future-urban-mobility/future-urban-mobility.html) and [SUTD](http://www.sutd.edu.sg/), to helping develop the classification algorithms running on the [Myo armband](https://www.thalmic.com/en/myo/), to working on the 2G/3G signal processing algorithms at Research In Motion (now [BlackBerry](http://ca.blackberry.com/)), and lots more in between. In addition to [my resume](http://connorsmith.github.io/public/connor-resume_20191008.pdf), information about my past experience be found on [LinkedIn]({{site.linkedin}}).
+with autonomous vehicles in Singapore with [SMART](http://smart.mit.edu/research/future-urban-mobility/future-urban-mobility.html) and [SUTD](http://www.sutd.edu.sg/), to helping develop the classification algorithms running on the [Myo armband](https://www.thalmic.com/en/myo/), to working on the 2G/3G signal processing algorithms at Research In Motion (now [BlackBerry](http://ca.blackberry.com/)), and lots more in between. In addition to [my resume]({{site.resume}}), information about my past experience be found on [LinkedIn]({{site.linkedin}}).
 
 ## Hobbies
 
