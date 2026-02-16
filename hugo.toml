@@ -1,0 +1,29 @@
+baseURL = "https://www.conthetron.com/"
+languageCode = "en"
+title = "Connor Smith"
+
+[params]
+  tagline = "a brainspace"
+  description = "a brainspace"
+  resume = "/connor-smith_resume_2026-02-16.pdf"
+  linkedin = "https://www.linkedin.com/in/conthesmith"
+  strava = "https://www.strava.com/athletes/4374239"
+  goodreads = "https://www.goodreads.com/user/show/3353185-connor"
+  email = "connor@conthetron.com"
+  github = "https://github.com/connorsmith"
+
+[params.author]
+  name = "Connor Smith"
+
+[markup]
+  [markup.highlight]
+    style = "friendly"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[pagination]
+  pagerSize = 5
+
+[outputs]
+  home = ["HTML", "RSS"]

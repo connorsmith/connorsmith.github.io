@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="https://gmpg.org/xfn/11" rel="profile">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+    <title>
+      {{- if eq .Title "Home" -}}
+        {{ .Site.Title }} &middot; {{ .Site.Params.tagline }}
+      {{- else -}}
+        {{ .Title }} &middot; {{ .Site.Title }}
+      {{- end -}}
+    </title>
+
+    {{ $poole := resources.Get "css/poole.css" }}
+    {{ $syntax := resources.Get "css/syntax.css" }}
+    {{ $hyde := resources.Get "css/hyde.css" }}
+    {{ $styles := slice $poole $syntax $hyde | resources.Concat "css/styles.css" | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Abril+Fatface&display=swap">
+
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ "letter-c-blue.png" | relURL }}">
+    <link rel="icon" href="{{ "letter-c-blue.ico" | relURL }}">
+
+    {{ with .OutputFormats.Get "RSS" }}
+      <link rel="alternate" type="{{ .MediaType }}" title="RSS" href="{{ .RelPermalink }}">
+    {{ end }}
+
+    {{ template "_internal/opengraph.html" . }}
+    {{ template "_internal/twitter_cards.html" . }}
+  </head>
+
+  <body>
+    {{ partial "sidebar.html" . }}
+
+    <div class="content container">
+      {{ block "main" . }}{{ end }}
+    </div>
+  </body>
+</html>

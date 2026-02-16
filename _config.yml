@@ -16,6 +16,13 @@ resume:           /public/connor-smith_resume_2026-02-16.pdf
 author:
   name:           'Connor Smith'
   url:
+  email:          'connor@conthetron.com'
+
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
 
 paginate:         5
 

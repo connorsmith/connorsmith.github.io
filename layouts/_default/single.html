@@ -1,0 +1,23 @@
+{{ define "main" }}
+<div class="post">
+  <h1 class="post-title">{{ .Title }}</h1>
+  <span class="post-date">{{ .Date.Format "02 Jan 2006" }}</span>
+  {{ .Content }}
+</div>
+
+{{ with .PrevInSection }}
+<div class="related">
+  <h2>Previous Post</h2>
+  <ul class="related-posts">
+    <li>
+      <h3>
+        <a href="{{ .RelPermalink }}">
+          {{ .Title }}
+          <small>{{ .Date.Format "02 Jan 2006" }}</small>
+        </a>
+      </h3>
+    </li>
+  </ul>
+</div>
+{{ end }}
+{{ end }}

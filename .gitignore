@@ -1,5 +1,19 @@
 *DS_Store
 
-assets/images/_site/*
+# Hugo build output
+/resources/_gen/
+.hugo_build.lock
+
+# Legacy Jekyll
 _site/*
 .sass-cache/
+
+# OS files
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.idea/
+.vscode/

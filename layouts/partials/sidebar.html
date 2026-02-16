@@ -1,0 +1,29 @@
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <img src="{{ "images/2020_connor.jpg" | relURL }}" alt="Picture of me" class="avatar" />
+      <h2><a href="{{ "/" | relURL }}">{{ .Site.Title }}</a></h2>
+      <p class="lead">{{ .Site.Params.description }}</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item{{ if .IsHome }} active{{ end }}" href="{{ "/" | relURL }}">Home</a>
+
+      {{ range .Site.Menus.main }}
+        <a class="sidebar-nav-item{{ if $.IsMenuCurrent "main" . }} active{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
+      {{ end }}
+
+      <a class="sidebar-nav-item" href="{{ .Site.Params.resume | relURL }}">Resume</a>
+    </nav>
+
+    <div class="social-links">
+      <ul>
+        <li><a href="mailto:{{ .Site.Params.email }}">{{ partial "svg/email.html" }}</a></li>
+        <li><a href="{{ .Site.Params.linkedin }}">{{ partial "svg/linkedin.html" }}</a></li>
+        <li><a href="{{ .Site.Params.github }}">{{ partial "svg/github.html" }}</a></li>
+      </ul>
+    </div>
+
+    <p class="copyright">&copy; {{ now.Year }}. All rights reserved.</p>
+  </div>
+</div>

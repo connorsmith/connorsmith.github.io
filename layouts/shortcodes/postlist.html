@@ -1,0 +1,7 @@
+<ul>
+{{ range site.RegularPages.ByDate.Reverse }}
+  {{ if eq .Section "posts" }}
+  <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+  {{ end }}
+{{ end }}
+</ul>
