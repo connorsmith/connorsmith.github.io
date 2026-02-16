@@ -9,9 +9,9 @@ permalink:        pretty
 title:            Connor Smith
 tagline:          'a brainspace'
 description:      'a brainspace'
-url:              http://connorsmith.github.io
+url:              https://www.conthetron.com
 baseurl:          /
-resume:           http://connorsmith.github.io/public/connor-resume_20210502.pdf
+resume:           /public/connor-smith_resume_2026-02-16.pdf
 
 author:
   name:           'Connor Smith'
@@ -26,6 +26,5 @@ github:
   repo:           https://github.com/connorsmith/connorsmith.github.io
 
 linkedin:         https://www.linkedin.com/in/conthesmith
-googleplus:       https://plus.google.com/+ConnorSmithConnor/posts
-strava:           http://www.strava.com/athletes/4374239
+strava:           https://www.strava.com/athletes/4374239
 goodreads:        https://www.goodreads.com/user/show/3353185-connor
