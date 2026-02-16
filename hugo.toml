@@ -1,6 +1,7 @@
 baseURL = "https://www.conthetron.com/"
 languageCode = "en"
 title = "Connor Smith"
+enableRobotsTXT = true
 
 [params]
   tagline = "a brainspace"

@@ -30,6 +30,8 @@
       <link rel="alternate" type="{{ .MediaType }}" title="RSS" href="{{ .RelPermalink }}">
     {{ end }}
 
+    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Summary }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}{{ end }}">
+
     {{ template "_internal/opengraph.html" . }}
     {{ template "_internal/twitter_cards.html" . }}
   </head>

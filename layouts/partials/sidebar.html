@@ -2,7 +2,7 @@
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
       <img src="{{ "images/2020_connor.jpg" | relURL }}" alt="Picture of me" class="avatar" />
-      <h2><a href="{{ "/" | relURL }}">{{ .Site.Title }}</a></h2>
+      <p class="site-title"><a href="{{ "/" | relURL }}">{{ .Site.Title }}</a></p>
       <p class="lead">{{ .Site.Params.description }}</p>
     </div>
 
@@ -18,9 +18,9 @@
 
     <div class="social-links">
       <ul>
-        <li><a href="mailto:{{ .Site.Params.email }}">{{ partial "svg/email.html" }}</a></li>
-        <li><a href="{{ .Site.Params.linkedin }}">{{ partial "svg/linkedin.html" }}</a></li>
-        <li><a href="{{ .Site.Params.github }}">{{ partial "svg/github.html" }}</a></li>
+        <li><a href="mailto:{{ .Site.Params.email }}" aria-label="Email">{{ partial "svg/email.html" }}</a></li>
+        <li><a href="{{ .Site.Params.linkedin }}" aria-label="LinkedIn" target="_blank" rel="noopener">{{ partial "svg/linkedin.html" }}</a></li>
+        <li><a href="{{ .Site.Params.github }}" aria-label="GitHub" target="_blank" rel="noopener">{{ partial "svg/github.html" }}</a></li>
       </ul>
     </div>
 
